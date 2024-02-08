@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	ticker := time.NewTicker(3 * time.Second)
+	ticker := time.NewTicker(120 * time.Second)
 
 	go func() {
 		fmt.Println("hello") // First execution
